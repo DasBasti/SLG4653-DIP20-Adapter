@@ -1,0 +1,264 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:silego
+LIBS:Sil-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SLG46531 U1
+U 1 1 57C6DF78
+P 7100 2700
+F 0 "U1" H 7400 3300 60  0000 C CNN
+F 1 "SLG46531" H 7100 2000 60  0000 C CNN
+F 2 "sirona:SLG46531" H 7100 2700 60  0001 C CNN
+F 3 "" H 7100 2700 60  0000 C CNN
+	1    7100 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X20 P1
+U 1 1 57C6DFF7
+P 8900 4900
+F 0 "P1" H 8900 5950 50  0000 C CNN
+F 1 "CONN_01X20" V 9000 4900 50  0000 C CNN
+F 2 "Housings_DIP:DIP-20_W7.62mm" H 8900 4900 50  0001 C CNN
+F 3 "" H 8900 4900 50  0000 C CNN
+	1    8900 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 2250 6200 2250
+Wire Wire Line
+	6200 2150 6200 3950
+Wire Wire Line
+	6200 3950 8700 3950
+Wire Wire Line
+	6500 2650 6100 2650
+Wire Wire Line
+	6100 2650 6100 4050
+Wire Wire Line
+	6100 4050 8700 4050
+Wire Wire Line
+	6500 2750 6000 2750
+Wire Wire Line
+	6000 2750 6000 4150
+Wire Wire Line
+	6000 4150 8700 4150
+Wire Wire Line
+	8700 4250 5900 4250
+Wire Wire Line
+	5900 4250 5900 2850
+Wire Wire Line
+	5900 2850 6500 2850
+Wire Wire Line
+	6500 2950 5800 2950
+Wire Wire Line
+	5800 2950 5800 4350
+Wire Wire Line
+	5800 4350 8700 4350
+Wire Wire Line
+	8700 4450 5700 4450
+Wire Wire Line
+	5700 4450 5700 3050
+Wire Wire Line
+	5700 3050 6500 3050
+Wire Wire Line
+	6500 3150 5600 3150
+Wire Wire Line
+	5600 3150 5600 4550
+Wire Wire Line
+	5600 4550 8700 4550
+Wire Wire Line
+	8700 4650 5500 4650
+Wire Wire Line
+	5500 4650 5500 2450
+Wire Wire Line
+	5500 2450 6500 2450
+Wire Wire Line
+	6500 2550 5400 2550
+Wire Wire Line
+	5400 2550 5400 4750
+Wire Wire Line
+	5400 4750 8700 4750
+Wire Wire Line
+	6500 3250 6300 3250
+Wire Wire Line
+	6300 3250 6300 4850
+Wire Wire Line
+	6300 4850 8700 4850
+Wire Wire Line
+	8700 4950 7750 4950
+Wire Wire Line
+	7750 4950 7750 3250
+Wire Wire Line
+	7750 3250 7650 3250
+Wire Wire Line
+	7650 3050 7850 3050
+Wire Wire Line
+	7850 3050 7850 5850
+Wire Wire Line
+	7850 5850 8700 5850
+Wire Wire Line
+	8700 5750 7950 5750
+Wire Wire Line
+	7950 5750 7950 2950
+Wire Wire Line
+	7950 2950 7650 2950
+Wire Wire Line
+	7650 2850 8050 2850
+Wire Wire Line
+	8050 2850 8050 5650
+Wire Wire Line
+	8050 5650 8700 5650
+Wire Wire Line
+	8700 5550 8150 5550
+Wire Wire Line
+	8150 5550 8150 2750
+Wire Wire Line
+	8150 2750 7650 2750
+Wire Wire Line
+	7650 2650 8250 2650
+Wire Wire Line
+	8250 2650 8250 5450
+Wire Wire Line
+	8250 5450 8700 5450
+Wire Wire Line
+	8700 5350 8350 5350
+Wire Wire Line
+	8350 5350 8350 2550
+Wire Wire Line
+	8350 2550 7650 2550
+Wire Wire Line
+	7650 2450 8450 2450
+Wire Wire Line
+	8450 2450 8450 5250
+Wire Wire Line
+	8450 5250 8700 5250
+Wire Wire Line
+	8700 5150 8550 5150
+Wire Wire Line
+	8550 5150 8550 2350
+Wire Wire Line
+	8550 2350 7650 2350
+Wire Wire Line
+	7650 2250 8650 2250
+Wire Wire Line
+	8650 2250 8650 5050
+Wire Wire Line
+	8650 5050 8700 5050
+$Comp
+L C C1
+U 1 1 57C6E499
+P 6200 2000
+F 0 "C1" H 6225 2100 50  0000 L CNN
+F 1 "100n" H 6225 1900 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 6238 1850 50  0001 C CNN
+F 3 "" H 6200 2000 50  0000 C CNN
+	1    6200 2000
+	1    0    0    -1  
+$EndComp
+Connection ~ 6200 2250
+$Comp
+L GND #PWR01
+U 1 1 57C6E5AA
+P 6200 1750
+F 0 "#PWR01" H 6200 1500 50  0001 C CNN
+F 1 "GND" H 6200 1600 50  0000 C CNN
+F 2 "" H 6200 1750 50  0000 C CNN
+F 3 "" H 6200 1750 50  0000 C CNN
+	1    6200 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6200 1750 6200 1850
+$Comp
+L GND #PWR02
+U 1 1 57C6E6C2
+P 7750 4950
+F 0 "#PWR02" H 7750 4700 50  0001 C CNN
+F 1 "GND" H 7750 4800 50  0000 C CNN
+F 2 "" H 7750 4950 50  0000 C CNN
+F 3 "" H 7750 4950 50  0000 C CNN
+	1    7750 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R1
+U 1 1 57C6EB55
+P 9650 2650
+F 0 "R1" H 9680 2670 50  0000 L CNN
+F 1 "SLG46531V" H 9680 2610 50  0000 L CNN
+F 2 "Resistors_SMD:R_0201" H 9650 2650 50  0001 C CNN
+F 3 "" H 9650 2650 50  0000 C CNN
+	1    9650 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R2
+U 1 1 57C6EC2B
+P 9650 2950
+F 0 "R2" H 9680 2970 50  0000 L CNN
+F 1 "SLG46532V" H 9680 2910 50  0000 L CNN
+F 2 "Resistors_SMD:R_0201" H 9650 2950 50  0001 C CNN
+F 3 "" H 9650 2950 50  0000 C CNN
+	1    9650 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_Small R3
+U 1 1 57C6EC52
+P 9650 3250
+F 0 "R3" H 9680 3270 50  0000 L CNN
+F 1 "SLG46533V" H 9680 3210 50  0000 L CNN
+F 2 "Resistors_SMD:R_0201" H 9650 3250 50  0001 C CNN
+F 3 "" H 9650 3250 50  0000 C CNN
+	1    9650 3250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9650 2750
+NoConn ~ 9650 2850
+NoConn ~ 9650 2550
+NoConn ~ 9650 3050
+NoConn ~ 9650 3150
+NoConn ~ 9650 3350
+$EndSCHEMATC
